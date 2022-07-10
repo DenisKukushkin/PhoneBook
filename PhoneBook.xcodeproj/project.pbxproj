@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC200502879A42C0073DE73 /* OneMorePhoneBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2004F2879A42C0073DE73 /* OneMorePhoneBookTableViewController.swift */; };
+		ACC200542879A46F0073DE73 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC200532879A46F0073DE73 /* TabBarController.swift */; };
+		ACC2005A2879D7CC0073DE73 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC200592879D7CC0073DE73 /* PersonDetailsViewController.swift */; };
 		ACEB4E732876195200C0705D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E722876195200C0705D /* AppDelegate.swift */; };
 		ACEB4E752876195200C0705D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E742876195200C0705D /* SceneDelegate.swift */; };
-		ACEB4E772876195200C0705D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E762876195200C0705D /* ViewController.swift */; };
 		ACEB4E7A2876195200C0705D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB4E782876195200C0705D /* Main.storyboard */; };
 		ACEB4E7C2876195400C0705D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEB4E7B2876195400C0705D /* Assets.xcassets */; };
 		ACEB4E7F2876195400C0705D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB4E7D2876195400C0705D /* LaunchScreen.storyboard */; };
+		ACEB4E872876197700C0705D /* PhoneBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E862876197700C0705D /* PhoneBookTableViewController.swift */; };
+		ACEB4E8B28761B4800C0705D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E8A28761B4800C0705D /* Person.swift */; };
+		ACEB4E8D28761C4100C0705D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB4E8C28761C4100C0705D /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACC2004F2879A42C0073DE73 /* OneMorePhoneBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMorePhoneBookTableViewController.swift; sourceTree = "<group>"; };
+		ACC200532879A46F0073DE73 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		ACC200592879D7CC0073DE73 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		ACEB4E6F2876195200C0705D /* PhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEB4E722876195200C0705D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEB4E742876195200C0705D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACEB4E762876195200C0705D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACEB4E792876195200C0705D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACEB4E7B2876195400C0705D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEB4E7E2876195400C0705D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEB4E802876195400C0705D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEB4E862876197700C0705D /* PhoneBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookTableViewController.swift; sourceTree = "<group>"; };
+		ACEB4E8A28761B4800C0705D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ACEB4E8C28761C4100C0705D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACC2004A2879A34E0073DE73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACC200532879A46F0073DE73 /* TabBarController.swift */,
+				ACEB4E862876197700C0705D /* PhoneBookTableViewController.swift */,
+				ACC2004F2879A42C0073DE73 /* OneMorePhoneBookTableViewController.swift */,
+				ACC200592879D7CC0073DE73 /* PersonDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		ACEB4E662876195200C0705D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +77,41 @@
 		ACEB4E712876195200C0705D /* PhoneBook */ = {
 			isa = PBXGroup;
 			children = (
-				ACEB4E722876195200C0705D /* AppDelegate.swift */,
-				ACEB4E742876195200C0705D /* SceneDelegate.swift */,
-				ACEB4E762876195200C0705D /* ViewController.swift */,
-				ACEB4E782876195200C0705D /* Main.storyboard */,
+				ACC2004A2879A34E0073DE73 /* ViewControllers */,
+				ACEB4E8F28761EB800C0705D /* Models */,
+				ACEB4E882876199000C0705D /* StoryBoards */,
+				ACEB4E89287619A200C0705D /* App */,
 				ACEB4E7B2876195400C0705D /* Assets.xcassets */,
-				ACEB4E7D2876195400C0705D /* LaunchScreen.storyboard */,
-				ACEB4E802876195400C0705D /* Info.plist */,
+				ACEB4E8C28761C4100C0705D /* Data.swift */,
 			);
 			path = PhoneBook;
+			sourceTree = "<group>";
+		};
+		ACEB4E882876199000C0705D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB4E782876195200C0705D /* Main.storyboard */,
+				ACEB4E7D2876195400C0705D /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		ACEB4E89287619A200C0705D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB4E722876195200C0705D /* AppDelegate.swift */,
+				ACEB4E742876195200C0705D /* SceneDelegate.swift */,
+				ACEB4E802876195400C0705D /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ACEB4E8F28761EB800C0705D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB4E8A28761B4800C0705D /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEB4E772876195200C0705D /* ViewController.swift in Sources */,
+				ACEB4E872876197700C0705D /* PhoneBookTableViewController.swift in Sources */,
+				ACC200502879A42C0073DE73 /* OneMorePhoneBookTableViewController.swift in Sources */,
+				ACEB4E8D28761C4100C0705D /* Data.swift in Sources */,
 				ACEB4E732876195200C0705D /* AppDelegate.swift in Sources */,
+				ACC200542879A46F0073DE73 /* TabBarController.swift in Sources */,
+				ACC2005A2879D7CC0073DE73 /* PersonDetailsViewController.swift in Sources */,
+				ACEB4E8B28761B4800C0705D /* Person.swift in Sources */,
 				ACEB4E752876195200C0705D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Y74JRW93;
-				INFOPLIST_FILE = PhoneBook/Info.plist;
+				INFOPLIST_FILE = PhoneBook/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Y74JRW93;
-				INFOPLIST_FILE = PhoneBook/Info.plist;
+				INFOPLIST_FILE = PhoneBook/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
